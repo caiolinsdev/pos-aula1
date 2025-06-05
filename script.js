@@ -5,7 +5,8 @@ document.getElementById('contactForm').addEventListener('submit', async function
         document.getElementById('name1').value,
         document.getElementById('name2').value,
         document.getElementById('name3').value,
-        document.getElementById('name4').value
+        document.getElementById('name4').value,
+        document.getElementById('name5').value
     ];
 
     const message = document.getElementById('message').value;
