@@ -1,0 +1,122 @@
+body {
+    background: #e5e5e5;
+    margin: 0;
+    font-family: 'Inter', Arial, sans-serif;
+  }
+  
+  .container-bg {
+    width: 100%;
+    min-height: 100vh;
+    padding: 32px 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    padding-left: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .logo {
+    color: #bdbdbd;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  
+  main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .main-card {
+    background: #18191b;
+    border-radius: 8px;
+    padding: 40px 0 0 0;
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .title-area {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 16px;
+    position: relative;
+  }
+  
+  .title-area h1 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 8px 0;
+  }
+  
+  .badge {
+    background: #e63946;
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 8px;
+    border-radius: 2px;
+    font-weight: 600;
+    position: absolute;
+    left: 0;
+    top: 38px;
+  }
+  
+  .form-group {
+    background: #f7f7fa;
+    border-radius: 4px;
+    padding: 32px 32px 24px 32px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .form-group h2 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: #222;
+  }
+  
+  .form-group label {
+    font-size: 12px;
+    color: #444;
+    margin-top: 8px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 14px;
+    background: #fff;
+    margin-bottom: 4px;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  .form-group button {
+    margin-top: 24px;
+    background: #e63946;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 0;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .form-group button:hover {
+    background: #b71c1c;
+  }
