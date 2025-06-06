@@ -1,36 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <title>POSTECH - FULLSTACK</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POSTECH - FULLSTACK</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container-bg">
-    <main>
-      <section class="main-card">
-        <div class="title-area">
-          <h1>POSTECH - FULLSTACK</h1>
+    <header class="header">
+        <div class="header-content">
+            <h1>POSTECH - FULLSTACK</h1>
+            <p class="subtitle">Desafio aula inaugural</p>
         </div>
-        <form class="form-group" id="contactForm">
-          <h2>Informações do grupo</h2>
-          <label>Nome 1</label>
-          <input type="text" id="name1" required />
-          <label>Nome 2</label>
-          <input type="text" id="name2" required />
-          <label>Nome 3</label>
-          <input type="text" id="name3" required />
-          <label>Nome 4</label>
-          <input type="text" id="name4" required />
-          <label>Nome 5</label>
-          <input type="text" id="name5" required />
-          <label>Histórico do grupo</label>
-          <textarea rows="4" id="message" required></textarea>
-          <button type="submit">Enviar</button>
+    </header>
+
+    <div class="container">
+        <form class="form-container">
+            <h2 class="form-title">Informações do grupo</h2>
+            
+            <div class="input-group">
+                <label class="input-label">Nome</label>
+                <input type="text" class="input-field" required>
+            </div>
+            
+            <div class="input-group">
+                <label class="input-label">Nome</label>
+                <input type="text" class="input-field" required>
+            </div>
+            
+            <div class="input-group">
+                <label class="input-label">Nome</label>
+                <input type="text" class="input-field" required>
+            </div>
+            
+            <div class="input-group">
+                <label class="input-label">Nome</label>
+                <input type="text" class="input-field" required>
+            </div>
+            
+            <div class="input-group">
+                <label class="input-label">Nome</label>
+                <input type="text" class="input-field" required>
+            </div>
+            
+            <div class="input-group">
+                <label class="input-label">História do grupo</label>
+                <textarea class="textarea-field" rows="6" required></textarea>
+            </div>
+            
+            <button type="submit" class="submit-button">Enviar</button>
         </form>
-      </section>
-    </main>
-  </div>
-  <script src="script.js"></script>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
